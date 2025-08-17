@@ -29,6 +29,19 @@ IP-CIDR,114.114.115.115/32,no-resolve
 # apple
 IP-CIDR,156.238.18.188,no-resolve
 IP-CIDR,156.238.18.172,no-resolve
+IP-CIDR,17.57.145.54,no-resolve
+IP-CIDR,17.57.145.132,no-resolve
+IP-CIDR,17.57.145.134,no-resolve
+IP-CIDR,17.57.145.136,no-resolve
+IP-CIDR,17.57.145.137,no-resolve
+IP-CIDR,17.57.145.138,no-resolve  
+IP-CIDR,17.57.145.139,no-resolve
+IP-CIDR,17.57.145.140,no-resolve	
+IP-CIDR,17.57.145.149,no-resolve
+IP-CIDR,17.57.145.151,no-resolve
+IP-CIDR,17.57.145.152,no-resolve
+IP-CIDR,17.57.145.153,no-resolve
+IP-CIDR,17.57.145.154,no-resolve
 
 # 360
 DOMAIN-SUFFIX,360.com
