@@ -30,6 +30,7 @@ IP-CIDR,114.114.115.115/32,no-resolve
 IP-CIDR,17.57.145.132,no-resolve
 IP-CIDR,17.57.145.136,no-resolve
 IP-CIDR,17.57.145.151,no-resolve
+IP-CIDR,17.57.145.153,no-resolve
 
 # 360
 DOMAIN-SUFFIX,360.com
