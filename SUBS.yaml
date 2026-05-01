@@ -5,7 +5,7 @@
 proxy-providers:
   SUBS Pro:
     url: "https://ghp.2208000.xyz/https://gist.githubusercontent.com/fdlk123/437105ebe4aa7e5d48fc4b967452455e/raw/mihomo.yaml"
-    type: http
+    输入: http
     interval: 3600
     health-check:
       enable: true
@@ -14,7 +14,7 @@ proxy-providers:
     proxy: 直连
   SUBS:
     url: "https://ghp.2208000.xyz/https://gist.githubusercontent.com/fdlk123/864029828c22be3487d1c420665bee28/raw/mihomo.yaml"
-    type: http
+    输入: http
     interval: 3600
     health-check:
       enable: true
@@ -23,7 +23,7 @@ proxy-providers:
     proxy: 直连
   绿光订阅:
     url: "https://lvdy.fdlk123.dpdns.org/fe32fd69-ae66-4d46-903e-1c51a82bf340/sub?target=clash"
-    type: http
+    输入: http
     interval: 86400
     health-check:
       enable: true
@@ -184,10 +184,10 @@ rule-anchor:
   domain: &domain {type: http, interval: 86400, behavior: domain, format: mrs}
   class: &class {type: http, interval: 86400, behavior: classical, format: text}
 rule-providers: 
-  Direct: { <<: *domain, url: "https://raw.githubusercontent.com/fdlk123/guizheceluo/refs/heads/main/Direct.list"}
+  Direct: { <<: *class, url: "https://raw.githubusercontent.com/fdlk123/guizheceluo/refs/heads/main/Direct.list"}
   private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
   proxylite: { <<: *class, url: "https://raw.githubusercontent.com/fdlk123/guizheceluo/refs/heads/main/Proxy.list"}
-  ai_fdlk: {  <<: *domain, url: "https://raw.githubusercontent.com/fdlk123/guizheceluo/refs/heads/main/AI.list" }
+  ai_fdlk: {  <<: *class, url: "https://raw.githubusercontent.com/fdlk123/guizheceluo/refs/heads/main/AI.list" }
   ai: {  <<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs" }
   youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
   google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
