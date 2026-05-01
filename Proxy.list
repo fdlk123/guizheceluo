@@ -1,6 +1,16 @@
 # 代理补充列表
 
 # 域名后缀匹配
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN-SUFFIX,tmdb.org
+DOMAIN-SUFFIX,thetvdb.com
+DOMAIN-SUFFIX,fanart.tv
+DOMAIN-SUFFIX,api.themoviedb.org
+DOMAIN-SUFFIX,api.tmdb.org
+DOMAIN-SUFFIX,www.themoviedb.org
+DOMAIN-SUFFIX,image.tmdb.org
+DOMAIN-SUFFIX,api.thetvdb.com
+DOMAIN-SUFFIX,webservice.fanart.tv
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,graph.oculus.com
 DOMAIN-SUFFIX,oculus.com
