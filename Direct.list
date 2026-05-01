@@ -7,7 +7,7 @@ DOMAIN-SUFFIX,lanzov.com
 DOMAIN-SUFFIX,hao123.com
 
 # 域名关键字匹配
-DOMAIN-KEYWORD,cloudfront.net/
+DOMAIN-KEYWORD,cloudfront.net
 DOMAIN-KEYWORD,baidu
 DOMAIN-KEYWORD,bing.com
 DOMAIN-KEYWORD,msn.cn
